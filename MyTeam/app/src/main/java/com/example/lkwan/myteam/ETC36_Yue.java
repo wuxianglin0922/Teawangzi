@@ -24,7 +24,9 @@ public class ETC36_Yue extends AppCompatActivity {
             case R.id.btnSelect:
                 if (edt1.getText().toString().equals("")){
                     Toast.makeText(ETC36_Yue.this,"请输入车牌编号！",Toast.LENGTH_SHORT).show();
-                }else {
+                    return;
+                }
+                if (!edt1.getText().toString().equals("")){
                     a = edt1.getText().toString();
                 }
                 if (a.equals("1")){
@@ -35,7 +37,6 @@ public class ETC36_Yue extends AppCompatActivity {
                     tv1.setText("90");
                 }else {
                     Toast.makeText(ETC36_Yue.this,"并未查询到这辆车！",Toast.LENGTH_SHORT).show();
-
                 }
 
 

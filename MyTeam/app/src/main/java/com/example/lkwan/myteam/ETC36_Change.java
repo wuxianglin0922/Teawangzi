@@ -53,11 +53,12 @@ public class ETC36_Change extends AppCompatActivity {
                 String time = simpleDateFormat.format(date);
                 editor.putString("time"+lenth,time);//时间
                 editor.putInt("id"+lenth,lenth);//ID
-                editor.putString("chepai"+lenth,tv1.getText().toString());
-                editor.putString("moeny"+lenth,moeny);
-                editor.putString("lenth",lenth+"");
+                editor.putString("chepai"+lenth,tv1.getText().toString());//车牌号
+                editor.putString("moeny"+lenth,moeny);//充值金额
+                editor.putInt("lenth",lenth);
                 editor.commit();
                 Toast.makeText(ETC36_Change.this,"充值成功！",Toast.LENGTH_SHORT).show();
+                edt1.setText("");
                 break;
         }
     }

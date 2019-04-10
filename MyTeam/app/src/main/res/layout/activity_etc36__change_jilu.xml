@@ -24,6 +24,7 @@
             android:layout_marginBottom="50dp"
             android:text="充值合计："/>
         <TextView
+            android:id="@+id/tv_chanji_jilu_item_heji"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"

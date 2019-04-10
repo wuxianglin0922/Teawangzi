@@ -5,8 +5,6 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_marginLeft="80dp"
-        android:layout_marginRight="80dp"
         android:layout_height="wrap_content">
 
         <TableLayout>

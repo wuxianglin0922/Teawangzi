@@ -96,6 +96,9 @@ public class MainActivity extends AppCompatActivity
         }else if (id ==R.id.ETC36){
             Intent intent = new Intent(MainActivity.this,ETC34.class);
             startActivity(intent);
+        }else if (id ==R.id.ETC16){
+            Intent intent = new Intent(MainActivity.this,ETC16.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById( R.id.drawer_layout );

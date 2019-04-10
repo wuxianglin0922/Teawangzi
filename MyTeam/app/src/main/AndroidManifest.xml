@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ETC36_ChangeJilu"></activity>
+        <activity android:name=".ETC16" />
+        <activity android:name=".ETC36_ChangeJilu" />
         <activity android:name=".ETC36_Yue" />
         <activity android:name=".ETC36_Change" />
         <activity android:name=".ETC34" />

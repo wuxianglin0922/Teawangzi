@@ -22,11 +22,11 @@ public class ETC34 extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.imgbtn2:
-                Intent intent1 = new Intent(ETC34.this,ETC36_Change.class);
+                Intent intent1 = new Intent(ETC34.this,ETC36_Yue.class);
                 startActivity(intent1);
                 break;
             case R.id.imgbtn3:
-                Intent intent2 = new Intent(ETC34.this,ETC36_Change.class);
+                Intent intent2 = new Intent(ETC34.this,ETC36_ChangeJilu.class);
                 startActivity(intent2);
                 break;
 
